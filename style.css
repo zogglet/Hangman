@@ -1,0 +1,275 @@
+﻿body 
+{
+    margin: 50px auto 50px auto;
+    font-family: Verdana, Sans-Serif;
+    color: #c2c2c2;
+    background: #373737;
+    font-size: 11px;
+}
+
+a
+{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #f44a86;
+}
+a:hover
+{
+    color: #c33869;
+    text-decoration: none;
+}
+
+h1
+{
+    display: block;
+    text-align: left;
+    padding: 0 0 10px 25px;
+    margin: 0;
+    border-bottom: solid 8px #292929;
+    font-variant: small-caps;
+    font-size: 35px;
+    font-weight: bold;
+    color: #21b59e;
+}
+
+h2
+{
+    text-align: right;
+    font-weight: bold;
+    padding: 10px 25px 0 0;
+    margin: 0 0 25px 0;
+    color: #f4e82d;
+    font-style: italic;
+    font-size: 22px;
+}
+
+#outer_div
+{
+    width: 100%;
+    text-align: center;
+}
+
+#outer_table
+{
+    width: 775px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    font-family: Verdana, Sans-Serif;
+    background: #4a4a4a;
+    border: solid 2px #2d2d2d;
+    padding: 10px;
+}
+
+.options_area
+{
+    width: 100%;
+    background: #434343;
+    padding: 10px;
+    text-align: left;
+}
+
+.BoardTable
+{
+    width: 100%;
+}
+.BoardTable td
+{
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.InputStyle, input[type="checkbox"]
+{
+    background: #292929;
+    font-family: Verdana, Sans-Serif;
+    border: solid 1px #727272;
+    color: #c2c2c2;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.ButtonStyle
+{
+    border: solid 2px #22b8a1;
+    background: #188271;
+    color: #28ddc1;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Verdana, Sans-Serif;
+}
+
+.BigButtonStyle
+{
+    border: solid 2px #22b8a1;
+    background: #188271;
+    color: #28ddc1;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana, Sans-Serif;
+}
+.DisabledBigButtonStyle
+{
+    border: solid 2px #7e7e7e;
+    font-family: Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 25px;
+    background: #5d5d5d;
+    color: #7e7e7e;
+}
+
+.LetterButtonStyle
+{
+    border: solid 2px #f4e82d;
+    font-family: Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 25px;
+    background: #a9a21f;
+    color: #f4e82d;
+    width: 50px;
+}
+.DisabledLetterButtonStyle
+{
+    border: solid 2px #7e7e7e;
+    font-family: Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 25px;
+    background: #5d5d5d;
+    color: #7e7e7e;
+    width: 50px;
+}
+
+.SolveInputStyle
+{
+    font-size: 25px;
+    color: #f4e82d;
+    font-weight: bold;
+    background: #292929;
+    font-family: Verdana, Sans-Serif;
+    border: solid 1px #727272;
+    padding: 2px;
+}
+
+.BlankSpace
+{
+    font-weight: bold;
+    color: #000000;
+    font-size: 35px;
+}
+
+.CorrectLetter
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #28ddc1;
+}
+
+.WrongLetter
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #f2362d;
+}
+
+.Divider
+{
+    display: block;
+    width: 100%;
+    border-bottom: solid 2px #535353;
+}
+
+.ResultStyle
+{
+    padding: 10px;
+    font-size: 24px;
+    background: #666666;
+    border: solid 3px #8d8d8d;
+    text-align: center;
+    width: 450px; 
+}
+.ResultStyle .inner
+{
+    font-size: 11px;
+}
+
+.InnerBigStyle
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.FailStyle
+{
+    color: #f2362d;
+    font-weight: bold;
+}
+
+.SuccessStyle
+{
+	color: #64dd28;
+	font-weight: bold;
+}
+
+.CongratStyle
+{
+    font-size: 34px;
+    font-weight: bold;
+    color: #f4e82d;
+}
+
+.GameOverFailStyle
+{
+    font-size: 34px;
+    font-weight: bold;
+    color: #f4e82d;
+}
+
+.ModalStyle
+{
+    background: #2d2d2d;
+    border: solid 3px #292929;
+    color: #a2a2a2;
+    font-size: 10px;
+    padding: 10px;
+}
+.ModalStyle h4
+{
+    color: #f4e82d;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 2px 5px 2px 5px; 
+    text-align: center;
+}
+.ModalStyle img
+{
+    border: solid 1px #2d2d2d;
+    text-align: center;
+}
+
+.ModalDivider
+{
+    display: block;
+    width: 100%;
+    border-bottom: solid 2px #262626;   
+}
+
+.Footer
+{
+   text-align: center;
+   border-top: solid 8px #292929;
+   margin: 25px 0 25px 0;
+   padding: 10px 0 0 0;
+}
+
+.ValidatorCalloutStyle
+{
+    background-color: #973934;
+}
+
+.ValidatorCalloutStyle div, .ValidatorCalloutStyle td
+{
+    background-color: #973934;
+    border: solid 1px #f23d2d;
+    font-size: 10px;
+    padding: 3px 0 3px 0;
+    color: #f23d2d;
+}
